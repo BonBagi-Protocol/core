@@ -1,0 +1,30 @@
+{
+  "name": "@bonbagi/core",
+  "version": "0.1.0",
+  "description": "BonBagi core: signed split charter (Ed25519), deterministic zatoshi split, ZIP-321 multi-recipient requests, memos and pay links for one-payment, many-recipient Zcash shielded payments.",
+  "license": "MIT",
+  "type": "module",
+  "repository": { "type": "git", "url": "git+https://github.com/BonBagi/core.git" },
+  "homepage": "https://bonbagi.vercel.app",
+  "keywords": ["zcash", "zip-321", "shielded", "payments", "ed25519", "split"],
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./*": { "types": "./dist/*.d.ts", "import": "./dist/*.js" }
+  },
+  "files": ["dist", "src", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepare": "npm run build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@noble/ed25519": "2.3.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
+  },
+  "engines": { "node": ">=20" }
+}
