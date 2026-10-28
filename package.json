@@ -4,7 +4,7 @@
   "description": "BonBagi core: signed split charter (Ed25519), deterministic zatoshi split, ZIP-321 multi-recipient requests, memos and pay links for one-payment, many-recipient Zcash shielded payments.",
   "license": "MIT",
   "type": "module",
-  "repository": { "type": "git", "url": "git+https://github.com/BonBagi/core.git" },
+  "repository": { "type": "git", "url": "git+https://github.com/BonBagi-Protocol/core.git" },
   "homepage": "https://bonbagi.vercel.app",
   "keywords": ["zcash", "zip-321", "shielded", "payments", "ed25519", "split"],
   "exports": {

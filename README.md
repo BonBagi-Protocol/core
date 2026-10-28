@@ -1,10 +1,10 @@
 # @bonbagi/core
 
-[![CI](https://github.com/BonBagi/core/actions/workflows/ci.yml/badge.svg)](https://github.com/BonBagi/core/actions/workflows/ci.yml) ![tests](https://img.shields.io/badge/tests-39%20passing-2ea44f) ![license](https://img.shields.io/badge/license-MIT-blue)
+[![CI](https://github.com/BonBagi-Protocol/core/actions/workflows/ci.yml/badge.svg)](https://github.com/BonBagi-Protocol/core/actions/workflows/ci.yml) ![tests](https://img.shields.io/badge/tests-39%20passing-2ea44f) ![license](https://img.shields.io/badge/license-MIT-blue)
 
 **The rules every BonBagi page, wallet and verifier agrees on.** One Zcash shielded payment, split to every member of a collective in a single transaction: this package holds the signed split charter, the deterministic zatoshi split, the ZIP-321 multi-recipient request, the per-member memo and the pay link. Pure TypeScript, no network, no storage. Built for ZECATHON 2026 (Shielded Payments).
 
-Used by **[BonBagi/frontend](https://github.com/BonBagi/frontend)** (live: https://bonbagi.vercel.app).
+Used by **[BonBagi-Protocol/frontend](https://github.com/BonBagi-Protocol/frontend)** (live: https://bonbagi.vercel.app).
 
 ## What it guarantees
 
@@ -23,7 +23,7 @@ There is no smart contract: Zcash has none. The "contract" is the signed charter
 ## Use
 
 ```bash
-npm install github:BonBagi/core#v0.1.0
+npm install github:BonBagi-Protocol/core#v0.1.0
 ```
 
 ```ts
@@ -47,8 +47,8 @@ npm run build     # ESM + .d.ts in dist/
 ## Status and limits
 
 - v0.1.0, used in production by the BonBagi pay and charter pages.
-- What it does not hide is listed in the frontend's [threat model](https://github.com/BonBagi/frontend/blob/main/docs/THREAT-MODEL.md) (for example, the number of shielded actions is public).
-- Backlog IDs `BB-xx` are shared across BonBagi repositories ([backlog](https://github.com/BonBagi/frontend/blob/main/docs/BACKLOG.md)).
+- What it does not hide is listed in the frontend's [threat model](https://github.com/BonBagi-Protocol/frontend/blob/main/docs/THREAT-MODEL.md) (for example, the number of shielded actions is public).
+- Backlog IDs `BB-xx` are shared across BonBagi repositories ([backlog](https://github.com/BonBagi-Protocol/frontend/blob/main/docs/BACKLOG.md)).
 
 ## Team
 
